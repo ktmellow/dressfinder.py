@@ -1,2 +1,5 @@
 # dressfinder.py
-Web scrapes Threadflip.com for thrift shop dresses by exact size in inches. Original intent was to search all dresses in website but may abort that project due to hitting a wall in page looping. The original file doesn't loop correctly. The small working unit only loops through the first page. 
+Dressfinderapi.py achieves the original intent of matching dresses from Threadflip.com by specified sizes, measured in inches.
+
+This version of dressfinder uses Threadflip.com's API, found with Firefox developer tools. The script no longer has trouble collecting url and information content generated in the browser.
+
