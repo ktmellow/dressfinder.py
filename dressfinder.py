@@ -85,8 +85,10 @@ for i in range(1, total_pages + 1):
             else:
                 print("Not your size, sorry.") 
         except:
+            f.closed
             print("Could not find measurements or dress is sold.")
             continue # del line if errors
+        f.closed
 
 print("All done with matching, now opening your dresses in browser!")
 browser = webdriver.Firefox()
